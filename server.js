@@ -40,8 +40,8 @@ hbs.registerHelper('screamIt', (text) => {
 
 app.get('/', (req, res) => {
   res.render('home.hbs', {
-    pageTitle: 'DIME GAY',
-    welcomeMessage: 'Welcome to DIME GAY website'
+    pageTitle: 'Znaci Prsteto',
+    welcomeMessage: 'Welcome to Prsteto website'
   });
 });
 
