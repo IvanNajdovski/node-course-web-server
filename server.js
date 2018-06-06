@@ -50,6 +50,12 @@ app.get('/about', (req, res) => {
     pageTitle: 'KRIZA GAY'
   });
 });
+app.get('/projects', (req,res) => {
+  res.render('projects.hbs',{
+    pageTitle: 'Projects Page',
+    welcomeMessage: 'Lets start a new project'
+});
+});
 
 // /bad - send back json with errorMessage
 app.get('/bad', (req, res) => {
